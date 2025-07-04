@@ -1,0 +1,51 @@
+Index .html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Awesome Landing Page</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+</head>
+<body>
+
+  <header class="hero-section">
+    <section class="form-section">
+        <h3>Stay Updated!</h3>
+        <p>Enter your email and we’ll keep you in the loop.</p>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="form-response" class="form-response"></p>
+      </section>
+
+    <nav>
+
+      <button class="nav-btn">Contact</button>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Transform Your Ideas Into Reality</h2>
+      <p>Join thousands of creators building their dreams with our platform.</p>
+
+    </div>
+  </header>
+
+  <footer>
+    <p>© 2025 BrandName. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
